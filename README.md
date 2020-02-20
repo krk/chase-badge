@@ -8,6 +8,10 @@ First revision of the board in the repo is rev-8. Earlier revisions are not avai
 
 Schematics contain notes and all components should have their datasheet in their details in KiCAD.
 
+### Kudos
+
+- to [@smcatala](https://github.com/smcatala) for reviewing the designs!
+
 ### Connectors
 
 1. USB-C for power, charging and with bootloader programming.

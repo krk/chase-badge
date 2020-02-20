@@ -1,0 +1,56 @@
+### Module positions - created on Do 20 Feb 2020 23:27:57 CET ###
+### Printed by Pcbnew version kicad 5.1.5-52549c5~84~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                                                PosX       PosY       Rot  Side
+BT1       Battery_Cell       JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal  -124.4990  -104.1790  180.0000  bottom
+C1        100n               C_0402_1005Metric                                 -131.1030  -122.2130  180.0000  bottom
+C2        10uF               C_0603_1608Metric                                 -128.5630  -110.0210  270.0000  bottom
+C3        10uF               C_0603_1608Metric                                 -136.9450  -109.2590  270.0000  bottom
+C4        47uF               CP_EIA-3216-18_Kemet-A                            -141.3900  -109.3860  270.0000  bottom
+C5        100n               C_0402_1005Metric                                 -133.6430  -113.4500    0.0000  bottom
+C6        47uF               CP_EIA-3216-18_Kemet-A                            -121.1970  -110.5290  270.0000  bottom
+C7        47uF               CP_EIA-3216-18_Kemet-A                            -110.5290  -104.5600   90.0000  bottom
+C8        100n               C_0402_1005Metric                                 -113.1960  -107.3540   90.0000  bottom
+C9        100n               C_0402_1005Metric                                 -134.6590  -122.2130  270.0000  bottom
+C10       100n               C_0402_1005Metric                                 -117.1330  -116.1170  270.0000  bottom
+C11       100n               C_0402_1005Metric                                 -121.9590  -130.5950   90.0000  bottom
+C12       100n               C_0402_1005Metric                                 -138.4690  -136.6910   90.0000  bottom
+C13       100n               C_0402_1005Metric                                 -130.3410  -131.6110  270.0000  bottom
+C14       10uF               C_0603_1608Metric                                 -138.7230  -109.2590  270.0000  bottom
+D1        D                  D_SOD-523                                         -111.5450  -110.0210   90.0000  bottom
+D2        LED                LED_0402_1005Metric                               -113.4500  -101.7660  180.0000  bottom
+D3        LED                LED_0402_1005Metric                               -115.7995  -101.7660  180.0000  bottom
+D4        LED                LED_0402_1005Metric                               -117.6410  -111.1640    0.0000  bottom
+D65       3V6                D_SOD-523                                         -104.6870  -113.1960  180.0000  bottom
+D66       3V6                D_SOD-523                                         -108.3700  -111.9260    0.0000  bottom
+J1        FH12-6S-0.5SH(55)  Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal  -105.9570  -127.5470    0.0000  bottom
+L1        2.2uH              L_Coilcraft_LPS4018                               -133.7700  -105.5760  180.0000  bottom
+Q1        DMC3400SDW-7       SOT-363_SC-70-6                                   -129.3250  -104.6870   90.0000  bottom
+Q2        DMN61D9UDW         SOT-363_SC-70-6                                   -127.2930  -132.8810    0.0000  bottom
+Q3        DMN61D9UDW         SOT-363_SC-70-6                                   -118.1490  -119.2920   90.0000  bottom
+R1        100                R_0402_1005Metric                                 -135.9520  -113.4500    0.0000  bottom
+R2        430                R_0402_1005Metric                                 -127.2930  -134.9130  180.0000  bottom
+R3        1K                 R_0402_1005Metric                                 -118.9110  -103.9250   90.0000  bottom
+R4        100K               R_0402_1005Metric                                 -110.0210  -110.0210   90.0000  bottom
+R65       5.1K               R_0402_1005Metric                                 -110.2750  -107.6080  180.0000  bottom
+R67       1K5                R_0402_1005Metric                                 -110.7830  -112.0530    0.0000  bottom
+R68       75.1               R_0402_1005Metric                                 -121.3240  -119.0380  180.0000  bottom
+R69       75.1               R_0402_1005Metric                                 -121.3240  -117.7680  180.0000  bottom
+R70       430                R_0402_1005Metric                                 -113.4500  -103.0360    0.0000  bottom
+R71       430                R_0402_1005Metric                                 -115.7995  -103.0360    0.0000  bottom
+R72       430                R_0402_1005Metric                                 -117.6410  -109.8940  180.0000  bottom
+R73       1M                 R_0603_1608Metric                                 -126.6580  -112.8150  180.0000  bottom
+R74       178K               R_0603_1608Metric                                 -129.9600  -112.8150  180.0000  bottom
+RT2       10K                R_0402_1005Metric                                 -120.4350  -103.9250  270.0000  bottom
+SW1       TS-1187A-B-A-B     TS1187ABAB                                        -123.7370  -125.2610    0.0000  bottom
+U1        ATtiny85V          SOIC-8_5.275x5.275mm_P1.27mm                      -127.5030  -118.2760    0.0000  bottom
+U2        TPS63000           Texas_DRC0010J_ThermalVias                        -133.7700  -110.6560  270.0000  bottom
+U3        MCP73837-FCI_UN    SOP50P490X110-8N                                  -117.1330  -106.5920    0.0000  bottom
+U4        TLC6C5912GQPWRQ1   SOP65P640X120-20N                                 -139.7390  -119.6730    0.0000  bottom
+U5        TLC6C5912GQPWRQ1   SOP65P640X120-20N                                 -111.7990  -118.6570  180.0000  bottom
+U6        TLC6C5912GQPWRQ1   SOP65P640X120-20N                                 -116.6060  -133.2520  180.0000  bottom
+U7        TLC6C5912GQPWRQ1   SOP65P640X120-20N                                 -133.1340  -139.4280  180.0000  bottom
+U8        TLC6C5912GQPWRQ1   SOP65P640X120-20N                                 -135.4210  -129.0710    0.0000  bottom
+X1        USB3.1_TYPEC       Type-C_3.1_24P                                    -102.2740  -105.8300   90.0000  bottom
+## End

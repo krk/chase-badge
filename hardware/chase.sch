@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "3.3V LED CHASER with USB-C and LiPo - 60 LEDS"
-Date "2020-02-11"
-Rev "8"
-Comp "https://github.com/krk"
+Title "3.3V/5V LED CHASER with USB-C and LiPo - 60 LEDS"
+Date "2020-02-20"
+Rev "9"
+Comp "https://github.com/krk/chase-badge"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -228,9 +228,9 @@ P 3150 4100
 F 0 "R70" V 2943 4100 50  0000 C CNN
 F 1 "430" V 3034 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 4100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Viking-Tech-ARG02FTC4300_C284568.pdf" H 3150 4100 50  0001 C CNN
-F 4 "430 ±1% 1/16W 0402 High Precision & Low TCR SMD Resistors RoHS" V 3150 4100 50  0001 C CNN "description"
-F 5 "ARG02FTC4300" V 3150 4100 50  0001 C CNN "MPN"
+F 3 "https://www.tme.eu/Document/9e42ba54d36a9bd3dfa2901986ac022d/rezystor-smd.pdf" H 3150 4100 50  0001 C CNN
+F 4 "thick film; SMD; 0402; 430Ω; 63mW; ±1%; -55÷155°C" V 3150 4100 50  0001 C CNN "description"
+F 5 "0402WGF4300TCE" V 3150 4100 50  0001 C CNN "MPN"
 	1    3150 4100
 	0    1    1    0   
 $EndComp
@@ -241,9 +241,9 @@ P 3150 4450
 F 0 "R71" V 2943 4450 50  0000 C CNN
 F 1 "430" V 3034 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 4450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Viking-Tech-ARG02FTC4300_C284568.pdf" H 3150 4450 50  0001 C CNN
-F 4 "430 ±1% 1/16W 0402 High Precision & Low TCR SMD Resistors RoHS" V 3150 4450 50  0001 C CNN "description"
-F 5 "ARG02FTC4300" V 3150 4450 50  0001 C CNN "MPN"
+F 3 "https://www.tme.eu/Document/9e42ba54d36a9bd3dfa2901986ac022d/rezystor-smd.pdf" H 3150 4450 50  0001 C CNN
+F 4 "thick film; SMD; 0402; 430Ω; 63mW; ±1%; -55÷155°C" V 3150 4450 50  0001 C CNN "description"
+F 5 "0402WGF4300TCE" V 3150 4450 50  0001 C CNN "MPN"
 	1    3150 4450
 	0    1    1    0   
 $EndComp
@@ -254,9 +254,9 @@ P 3150 4800
 F 0 "R72" V 2943 4800 50  0000 C CNN
 F 1 "430" V 3034 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 4800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Viking-Tech-ARG02FTC4300_C284568.pdf" H 3150 4800 50  0001 C CNN
-F 4 "430 ±1% 1/16W 0402 High Precision & Low TCR SMD Resistors RoHS" V 3150 4800 50  0001 C CNN "description"
-F 5 "ARG02FTC4300" V 3150 4800 50  0001 C CNN "MPN"
+F 3 "https://www.tme.eu/Document/9e42ba54d36a9bd3dfa2901986ac022d/rezystor-smd.pdf" H 3150 4800 50  0001 C CNN
+F 4 "thick film; SMD; 0402; 430Ω; 63mW; ±1%; -55÷155°C" V 3150 4800 50  0001 C CNN "description"
+F 5 "0402WGF4300TCE" V 3150 4800 50  0001 C CNN "MPN"
 	1    3150 4800
 	0    1    1    0   
 $EndComp
@@ -1135,14 +1135,6 @@ F 3 "~" H 4000 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 1200 3800 1500
-Wire Wire Line
-	9850 1450 9850 1250
-Connection ~ 9850 1450
-Wire Wire Line
-	8100 1650 8200 1650
-Wire Wire Line
-	9800 1450 9800 1550
-Connection ~ 9800 1550
 Text GLabel 2700 5450 2    50   Input ~ 0
 D+
 Wire Wire Line
@@ -1153,19 +1145,10 @@ Wire Wire Line
 	2000 4400 2100 4400
 Text GLabel 2700 5750 2    50   Input ~ 0
 D-
-Text GLabel 8200 700  0    50   Input ~ 0
-D+
-Text GLabel 8200 850  0    50   Input ~ 0
+Text GLabel 8200 650  0    50   Input ~ 0
 D-
 Wire Wire Line
-	8200 700  8400 700 
-Wire Wire Line
-	8400 700  8400 1550
-Wire Wire Line
-	8400 1550 8100 1550
-Wire Wire Line
-	8200 1650 8200 850 
-Connection ~ 8200 1650
+	8200 800  8400 800 
 $Comp
 L Device:Q_DUAL_NMOS_S1G1D2S2G2D1 Q2
 U 1 1 5E450C06
@@ -1191,11 +1174,7 @@ F 4 "DMN61D9UDW" H 9150 3400 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 1250 8800 1250
-Wire Wire Line
 	8100 1350 10000 1350
-Wire Wire Line
-	8100 1450 8700 1450
 $Comp
 L power:VCC #PWR051
 U 1 1 5E4A2F61
@@ -1214,9 +1193,9 @@ P 9250 2600
 F 0 "R2" V 9043 2600 50  0000 C CNN
 F 1 "430" V 9134 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9180 2600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Viking-Tech-ARG02FTC4300_C284568.pdf" H 9250 2600 50  0001 C CNN
-F 4 "430 ±1% 1/16W 0402 High Precision & Low TCR SMD Resistors RoHS" V 9250 2600 50  0001 C CNN "description"
-F 5 "ARG02FTC4300" V 9250 2600 50  0001 C CNN "MPN"
+F 3 "https://www.tme.eu/Document/9e42ba54d36a9bd3dfa2901986ac022d/rezystor-smd.pdf" H 9250 2600 50  0001 C CNN
+F 4 "thick film; SMD; 0402; 430Ω; 63mW; ±1%; -55÷155°C" V 9250 2600 50  0001 C CNN "description"
+F 5 "0402WGF4300TCE" V 9250 2600 50  0001 C CNN "MPN"
 	1    9250 2600
 	-1   0    0    1   
 $EndComp
@@ -1238,19 +1217,9 @@ NAND gate for RCK and SRCK signals. \nBoth of them should never be asserted\nat 
 Text Notes 8950 4000 0    50   ~ 0
 See note below.\nFor the NAND gate.
 Wire Wire Line
-	8800 1250 8800 3000
-Wire Wire Line
 	8800 3000 8950 3000
-Connection ~ 8800 1250
-Wire Wire Line
-	8800 1250 9850 1250
-Connection ~ 8700 1450
-Wire Wire Line
-	8700 1450 9800 1450
 Wire Wire Line
 	8700 3400 8950 3400
-Wire Wire Line
-	8700 1450 8700 3400
 Wire Wire Line
 	9250 2800 9750 2800
 Connection ~ 9250 2800
@@ -1387,8 +1356,6 @@ Wire Wire Line
 	2000 4500 1900 4500
 NoConn ~ 1900 4400
 NoConn ~ 1900 4200
-Wire Wire Line
-	8200 1650 8600 1650
 Text Notes 700  1400 0    50   ~ 0
 VBATOUT is BT1+ or USB VBUS.
 $Sheet
@@ -1415,9 +1382,9 @@ F 4 "DMC3400SDW-7" V 7400 3550 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 Text Notes 9950 1000 0    50   ~ 0
-When there is USB power, \nADC1 is disconnected.
+When there is USB power, \nXVCC is grounded.
 Text Notes 9950 800  0    50   ~ 0
-ADC1 point is intended for\nconnecting a microphone\nor other input to the ATtiny.
+XSIG1 and XSIG2 are intended for\nconnecting a microphone, buzzer\nor EEPROM or other addon boards.
 Text Notes 6750 4800 0    50   ~ 0
 Unused,\ngrounded.
 $Comp
@@ -1611,8 +1578,6 @@ Wire Wire Line
 	3800 1500 4350 1500
 Wire Wire Line
 	3200 1500 3800 1500
-Wire Wire Line
-	8600 1650 8600 800 
 $Comp
 L power:VCC #PWR055
 U 1 1 5E54B1D1
@@ -1632,18 +1597,18 @@ Wire Wire Line
 	5800 1400 5800 1500
 Wire Wire Line
 	5800 1500 5900 1500
-Text GLabel 8600 800  2    50   Input ~ 0
+Text GLabel 8650 650  2    50   Input ~ 0
 XSIG1
 $Comp
-L Connector:Conn_01x04_Female J1
+L Connector:Conn_01x06_Female J1
 U 1 1 5E48E7B6
 P 3800 6900
 F 0 "J1" H 3828 6830 50  0000 L CNN
-F 1 "THD0509-04CL-GF" H 3828 6785 50  0001 L CNN
-F 2 "chase-libs:THD050904CLGF" H 3800 6900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811021341_THD-THD0509-04CL-GF_C283133.pdf" H 3800 6900 50  0001 C CNN
-F 4 "THD0509-04CL-GF" H 3800 6900 50  0001 C CNN "MPN"
-F 5 "FPC Contact,Top and Bottom 4 0.020\"（0.50mm） SMD,P=0.5mm FFC, FPC Connectors RoHS" H 3800 6900 50  0001 C CNN "Description"
+F 1 "FH12-6S-0.5SH(55)" H 3828 6785 50  0001 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal" H 3800 6900 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0586-0582-5-55&productname=FH12-6S-0.5SH(55)&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en" H 3800 6900 50  0001 C CNN
+F 4 "FH12-6S-0.5SH(55)" H 3800 6900 50  0001 C CNN "MPN"
+F 5 "FPC Contact 6pin SMD horizontal" H 3800 6900 50  0001 C CNN "Description"
 	1    3800 6900
 	1    0    0    -1  
 $EndComp
@@ -1662,7 +1627,7 @@ Wire Wire Line
 	3450 7250 3450 7100
 Wire Wire Line
 	3450 7100 3600 7100
-Text GLabel 3600 6800 0    50   Input ~ 0
+Text GLabel 3600 6700 0    50   Input ~ 0
 XSIG1
 Text GLabel 3600 6900 0    50   Input ~ 0
 XVCC
@@ -1712,4 +1677,51 @@ Wire Wire Line
 Connection ~ 1600 7050
 Wire Wire Line
 	1600 7050 1850 7050
+Wire Wire Line
+	8100 1550 8800 1550
+Wire Wire Line
+	8800 1550 8800 3000
+Wire Wire Line
+	8800 1550 9600 1550
+Wire Wire Line
+	9600 1550 9600 1450
+Wire Wire Line
+	9600 1450 9850 1450
+Connection ~ 8800 1550
+Connection ~ 9850 1450
+Wire Wire Line
+	8100 1650 8700 1650
+Wire Wire Line
+	9650 1650 9650 1550
+Wire Wire Line
+	9650 1550 9800 1550
+Connection ~ 9800 1550
+Wire Wire Line
+	8700 3400 8700 1650
+Connection ~ 8700 1650
+Wire Wire Line
+	8700 1650 9650 1650
+Wire Wire Line
+	8200 650  8550 650 
+Wire Wire Line
+	8100 1450 8400 1450
+Wire Wire Line
+	8100 1250 8550 1250
+Connection ~ 8550 650 
+Wire Wire Line
+	8550 650  8650 650 
+Text GLabel 8200 800  0    50   Input ~ 0
+D+
+Wire Wire Line
+	8400 800  8400 1450
+Wire Wire Line
+	8550 650  8550 1250
+Text GLabel 8650 800  2    50   Input ~ 0
+XSIG2
+Wire Wire Line
+	8400 800  8650 800 
+Connection ~ 8400 800 
+Text GLabel 3600 6800 0    50   Input ~ 0
+XSIG2
+NoConn ~ 3600 7200
 $EndSCHEMATC
