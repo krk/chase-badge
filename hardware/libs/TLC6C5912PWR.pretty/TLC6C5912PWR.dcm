@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLC6C5912PWR
+D TLC6C5912 12-Channel Shift-Register LED Driver
+K
+F http://www.ti.com/lit/gpn/tlc6c5912
+$ENDCMP
+#
+#End Doc Library

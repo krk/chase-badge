@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP THD0509-04CL-GF
+D FFC, FPC Connectors SMD,P=0.5mm RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/THD-THD0510-04CL-GF_C283116.pdf
+$ENDCMP
+#
+#End Doc Library

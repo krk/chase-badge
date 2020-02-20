@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name chase-libs)(type KiCad)(uri ${KIPRJMOD}/libs/china.pretty)(options "")(descr ""))
+  (lib (name TLC6C5912PWR)(type KiCad)(uri ${KIPRJMOD}/libs/TLC6C5912PWR.pretty)(options "")(descr ""))
+  (lib (name TS-1187A-B-A-B)(type KiCad)(uri ${KIPRJMOD}/libs/TS1187A.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name amphenol)(type Legacy)(uri ${KIPRJMOD}/libs/amphenol.lib)(options "")(descr ""))
+  (lib (name TLC6C5912PWR)(type Legacy)(uri ${KIPRJMOD}/libs/TLC6C5912PWR.pretty/TLC6C5912PWR.lib)(options "")(descr ""))
+  (lib (name TS-1187A-B-A-B)(type Legacy)(uri ${KIPRJMOD}/libs/TS1187A.pretty/TS-1187A-B-A-B.lib)(options "")(descr ""))
+)
