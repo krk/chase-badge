@@ -1233,9 +1233,9 @@ P 2450 5450
 F 0 "R68" V 2243 5450 50  0000 C CNN
 F 1 "75.1" V 2334 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2380 5450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261110_Viking-Tech-ARG02FTC71R5_C284673.pdf" H 2450 5450 50  0001 C CNN
-F 4 "71.5 ±1% 1/16W 0402 High Precision & Low TCR SMD Resistors RoHS" V 2450 5450 50  0001 C CNN "description"
-F 5 "ARG02FTC71R5" V 2450 5450 50  0001 C CNN "MPN"
+F 3 "https://datasheet.lcsc.com/szlcsc/1810301125_UNI-ROYAL-Uniroyal-Elec-0402WGF715JTCE_C270584.pdf" H 2450 5450 50  0001 C CNN
+F 4 "71.5 ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS" V 2450 5450 50  0001 C CNN "description"
+F 5 "0402WGF715JTCE" V 2450 5450 50  0001 C CNN "MPN"
 	1    2450 5450
 	0    1    1    0   
 $EndComp
@@ -1246,9 +1246,9 @@ P 2450 5750
 F 0 "R69" V 2243 5750 50  0000 C CNN
 F 1 "75.1" V 2334 5750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2380 5750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261110_Viking-Tech-ARG02FTC71R5_C284673.pdf" H 2450 5750 50  0001 C CNN
-F 4 "71.5 ±1% 1/16W 0402 High Precision & Low TCR SMD Resistors RoHS" V 2450 5750 50  0001 C CNN "description"
-F 5 "ARG02FTC71R5" V 2450 5750 50  0001 C CNN "MPN"
+F 3 "https://datasheet.lcsc.com/szlcsc/1810301125_UNI-ROYAL-Uniroyal-Elec-0402WGF715JTCE_C270584.pdf" H 2450 5750 50  0001 C CNN
+F 4 "71.5 ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS" V 2450 5750 50  0001 C CNN "description"
+F 5 "0402WGF715JTCE" V 2450 5750 50  0001 C CNN "MPN"
 	1    2450 5750
 	0    1    1    0   
 $EndComp
@@ -1474,56 +1474,8 @@ Wire Wire Line
 	5800 2550 5800 2250
 Connection ~ 6000 2550
 Connection ~ 5800 2250
-$Comp
-L Device:R R73
-U 1 1 5E415EFC
-P 3200 1700
-F 0 "R73" V 2993 1700 50  0000 C CNN
-F 1 "1M" V 3084 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 1700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811141225_Viking-Tech-AR03BTCX1004_C318138.pdf" H 3200 1700 50  0001 C CNN
-F 4 "1M ±0.1% 1/10W 0603 High Precision & Low TCR SMD Resistors RoHS" V 3200 1700 50  0001 C CNN "description"
-F 5 "AR03BTCX1004" V 3200 1700 50  0001 C CNN "MPN"
-	1    3200 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R74
-U 1 1 5E41640F
-P 3200 2100
-F 0 "R74" V 2993 2100 50  0000 C CNN
-F 1 "178K" V 3084 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 2100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-TC0350B1783T5E_C425429.pdf" H 3200 2100 50  0001 C CNN
-F 4 "178K ±0.1% 1/6W ±50ppm℃ 0603 High Precision & Low TCR SMD Resistors RoHS" V 3200 2100 50  0001 C CNN "description"
-F 5 "TC0350B1783T5E" V 3200 2100 50  0001 C CNN "MPN"
-	1    3200 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR054
-U 1 1 5E432DBA
-P 3200 2350
-F 0 "#PWR054" H 3200 2100 50  0001 C CNN
-F 1 "GND" H 3205 2177 50  0000 C CNN
-F 2 "" H 3200 2350 50  0001 C CNN
-F 3 "" H 3200 2350 50  0001 C CNN
-	1    3200 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2350 3200 2250
-Wire Wire Line
-	3200 1850 3200 1900
 Wire Wire Line
 	3050 1500 3200 1500
-Wire Wire Line
-	3200 1900 3050 1900
-Wire Wire Line
-	3050 1700 3050 1900
-Connection ~ 3200 1900
-Wire Wire Line
-	3200 1900 3200 1950
 Connection ~ 3200 1500
 $Comp
 L Device:CP C14
@@ -1549,8 +1501,6 @@ F 4 "GRM188Z71A106MA73D" H 3600 1950 50  0001 C CNN "MPN"
 	1    3600 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 1550 3200 1500
 Wire Wire Line
 	3600 2100 3600 2200
 Wire Wire Line
@@ -1724,4 +1674,8 @@ Connection ~ 8400 800
 Text GLabel 3600 6800 0    50   Input ~ 0
 XSIG2
 NoConn ~ 3600 7200
+Wire Wire Line
+	3050 1700 3200 1700
+Wire Wire Line
+	3200 1500 3200 1700
 $EndSCHEMATC
